@@ -1,0 +1,63 @@
+<table border="1">
+<tr>
+<th>
+
+<head>
+
+<title>CADASTRO DE ALUNOS</title>
+
+</head>
+
+<body>
+<font size=“15”><b>CADASTRO DE ALUNOS</font></b><p>
+
+
+Nome: <input type=“text” size=“99”
+maxlength=“50”><p>
+
+
+
+Sexo: <input type="radio"><label>Feminino</label>
+<input type="radio"><label>Masculino</label><p>
+
+
+<form>
+Nascimento:<input type=“date” name="nascimento">
+</form><p>
+
+
+
+
+Nacionalidade:    <input name=“nacionalidade" type="radio" ><label>Brasileira</label>
+<input name=“nacionalidade" type="radio"><label>Estrangeira</label><p>
+
+
+
+Estado Civil: <input name=“estado civil" type="radio"><label>Casado(a)</label>
+<input name=“estado civil" type="radio"><label>Divorciado(a)</label><input name=“estado civil" type="radio" value=“E"><label>União Estável</label><input name=“estado civil" type="radio" value=“E"><label>Viuvo(a)</label><p>
+
+E-mail: <input type=“text” size=“99”
+maxlength=“50”><p>
+
+Curso:   <select name=“curso”>
+<option>SISTEMAS DA INFORMAÇÃO</opiton>
+<option selected>GESTÃO AMBIENTAL</option>
+</select><p>
+
+Disponiblidade:   <input type="checkbox" value="M"><label>Manhã</label>
+<input type="checkbox" value="N"><label>Noite</label><p>
+
+Mensagem:  <textarea name=“Mensagem” size="100"></textarea> .</font><p>
+
+
+
+
+<button>CADASTRAR</button><button>APAGAR</button>
+
+</form>
+
+ </tr>
+</table>
+
+</body>
+</html>
